@@ -1,0 +1,25 @@
+{
+  "name": "zzzName",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepublish": "jspm install",
+    "start": "static dist"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "dist"
+    },
+    "configFile": "dist/jspm-config.js",
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.14.0"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.5.3"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.0-beta.3",
+    "node-static": "^0.7.6"
+  }
+}
